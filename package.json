@@ -1,17 +1,18 @@
 {
-  "name": "professional-backend",
+  "name": "chai-backend",
   "version": "1.0.0",
-  "description": "backend for prodection",
-  "main": "index.js",
+  "description": "a backend at chai aur code channel - youtube",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
-    "backend"
+    "backend",
+    "chai"
   ],
-  "author": "Kaisar Sofi",
+  "author": "Hitesh Choudhary",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1",
